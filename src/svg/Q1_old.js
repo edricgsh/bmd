@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Q1 extends Component {
+export class Q1_Old extends Component {
   render() {
     const { A, B1, B2, C, AX, AY, CY } = this.props;
     return (
