@@ -1,14 +1,14 @@
-import {Q1, Q2, Q3, Q4, Q5} from '../svg';
+import { Q1, Q2, Q3, Q4, Q5 } from '../svg';
 
 const questions = [
   {
     image: Q1,
     inputs: [
-      { title: '1 - 2', names: [ 'A', 'B1' ] },
-      { title: '2 - 3', names: [ 'B2', 'C' ] },
-      { title: 'X1', names: [ 'AX' ] },
-      { title: 'Y1', names: [ 'AY' ] },
-      { title: 'Y3', names: [ 'CY' ] },
+      { title: '1 - 2', names: ['A', 'B1'] },
+      { title: '2 - 3', names: ['B2', 'C'] },
+      { title: 'X1', names: ['AX'] },
+      { title: 'Y1', names: ['AY'] },
+      { title: 'Y3', names: ['CY'] },
     ],
     answer: {
       A: 'N',
@@ -18,16 +18,16 @@ const questions = [
       AX: 'N',
       AY: 'N',
       CY: 'N',
-    }
+    },
   },
   {
     image: Q2,
     inputs: [
-      { title: '1 - 2', names: [ 'A', 'B1' ] },
-      { title: '2 - 3', names: [ 'B2', 'C' ] },
-      { title: 'X1', names: [ 'AX' ] },
-      { title: 'Y1', names: [ 'AY' ] },
-      { title: 'M1', names: [ 'AM' ] },
+      { title: '1 - 2', names: ['A', 'B1'] },
+      { title: '2 - 3', names: ['B2', 'C'] },
+      { title: 'X1', names: ['AX'] },
+      { title: 'Y1', names: ['AY'] },
+      { title: 'M1', names: ['AM'] },
     ],
     answer: {
       A: 'N',
@@ -42,12 +42,12 @@ const questions = [
   {
     image: Q3,
     inputs: [
-      { title: '1 - 2', names: [ 'A', 'B1' ] },
-      { title: '2 - 3', names: [ 'B2', 'C1' ] },
-      { title: '3 - 4', names: [ 'C2', 'D' ] },
-      { title: 'X1', names: [ 'AX' ] },
-      { title: 'Y1', names: [ 'AY' ] },
-      { title: 'Y3', names: [ 'CY' ] },
+      { title: '1 - 2', names: ['A', 'B1'] },
+      { title: '2 - 3', names: ['B2', 'C1'] },
+      { title: '3 - 4', names: ['C2', 'D'] },
+      { title: 'X1', names: ['AX'] },
+      { title: 'Y1', names: ['AY'] },
+      { title: 'Y3', names: ['CY'] },
     ],
     answer: {
       A: 'Z',
@@ -64,11 +64,11 @@ const questions = [
   {
     image: Q4,
     inputs: [
-      { title: '1 - 2', names: [ 'A', 'B1' ] },
-      { title: '2 - 3', names: [ 'B2', 'C' ] },
-      { title: 'X1', names: [ 'AX' ] },
-      { title: 'Y1', names: [ 'AY' ] },
-      { title: 'Y2', names: [ 'BY' ] },
+      { title: '1 - 2', names: ['A', 'B1'] },
+      { title: '2 - 3', names: ['B2', 'C'] },
+      { title: 'X1', names: ['AX'] },
+      { title: 'Y1', names: ['AY'] },
+      { title: 'Y2', names: ['BY'] },
     ],
     answer: {
       A: 'Z',
@@ -77,18 +77,18 @@ const questions = [
       C: 'Z',
       AX: 'Z',
       AY: 'P',
-      BY: 'N'
+      BY: 'N',
     },
   },
   {
     image: Q5,
     inputs: [
-      { title: '1 - 2', names: [ 'A', 'B1' ] },
-      { title: '2 - 3', names: [ 'B2', 'C' ] },
-      { title: 'X1', names: [ 'AX' ] },
-      { title: 'Y1', names: [ 'AY' ] },
-      { title: 'M1', names: [ 'AM' ] },
-      { title: 'Y3', names: [ 'CY' ] },
+      { title: '1 - 2', names: ['A', 'B1'] },
+      { title: '2 - 3', names: ['B2', 'C'] },
+      { title: 'X1', names: ['AX'] },
+      { title: 'Y1', names: ['AY'] },
+      { title: 'M1', names: ['AM'] },
+      { title: 'Y3', names: ['CY'] },
     ],
     answer: {
       A: 'N',
@@ -100,7 +100,7 @@ const questions = [
       AM: 'N',
       CY: 'N',
     },
-  }
+  },
 ];
 
 export default questions;

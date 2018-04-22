@@ -9,7 +9,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './assets/semantic/semantic.min.css';
 
 const rootReducer = combineReducers({
-  form: formReducer
+  form: formReducer,
 });
 
 const store = createStore(rootReducer);
@@ -18,6 +18,6 @@ ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 registerServiceWorker();

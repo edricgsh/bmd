@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import question from './Question';
 
@@ -9,7 +9,7 @@ export default class App extends Component {
     const Question = question(this.state.curr);
     return (
       <div>
-        <Question onNext={() => this.setState({ curr: ++this.state.curr })}/>
+        <Question onNext={() => this.setState({ curr: ++this.state.curr })} />
       </div>
     );
   }
