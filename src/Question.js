@@ -14,7 +14,7 @@ const styles = {
   right: {
     display: 'flex',
     justifyContent: 'center',
-    marginTop: '20vh'
+    alignItems: 'center',
   },
 };
 
@@ -53,7 +53,7 @@ const question = (i) => {
       const {handleSubmit, error, onNext, A, B1, B2, C, C1, C2, D, AX, AY, AM, BY, CY} = this.props;
       return (
         <Grid>
-          <Grid.Row>
+          <Grid.Row style={{ height: '100vh' }}>
             <Grid.Column width={9} floated="left" style={styles.left}>
               {this.renderQuestionSvg(i, {A, B1, B2, C, C1, C2, D, AX, AY, AM, BY, CY})}
             </Grid.Column>
@@ -61,8 +61,8 @@ const question = (i) => {
               <form onSubmit={handleSubmit(this.onSubmit)} style={{width: '80%'}}>
                 <div style={{width: '100%'}}>
                   {questions[i].inputs.map(({title, names}, i) => this.renderInput(i, title, names))}
-                  <Button onClick={() => {}}>Test solution</Button>
-                  {this.state.correct && i < questions.length - 1 && <Button onClick={() => onNext()}>Next</Button>}
+                  <Button>Test solution</Button>
+                  {i < questions.length - 1 && <Button onClick={() => onNext()}>Next</Button>}
                   {error && !this.state.correct && <div style={{margin: `8px 0`, color: 'red'}}>{error}</div>}
                   {this.state.correct && <div style={{margin: `8px 0`, color: 'green'}}>You got all correct!</div>}
                 </div>
