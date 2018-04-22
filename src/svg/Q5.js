@@ -316,6 +316,46 @@ export class Q5 extends Component {
             d="M 37.94249,82.120207 38.219541,99.12946"
             id="path894"
           />}
+          {A === 'N' && B1 === 'Z' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 37.942498,82.120207 93.744792,99.12946"
+            id="path877"
+          />}
+          {A === 'Z' && B1 === 'N' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 93.738093,81.931546 38.219541,99.12946"
+            id="path881"
+          />}
+          {A === 'Z' && B1 === 'P' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="m 38.219541,99.12946 55.566008,17.76521"
+            id="path885"
+          />}
+          {A === 'P' && B1 === 'Z' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 93.74479,99.12946 38.353177,116.99397"
+            id="path887"
+          />}
+          {B2 === 'Z' && C === 'P' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 93.744792,99.12946 149.9382,117.12761"
+            id="path889"
+          />}
+          {B2 === 'P' && C === 'Z' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 149.73775,99.12946 93.785549,116.89467"
+            id="path891"
+          />}
+          {B2 === 'Z' && C === 'N' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 150.05655,81.931546 93.74479,99.12946"
+            id="path893"
+          />}
+          {B2 === 'N' && C === 'Z' && <path
+            style={{ fill: 'none', stroke: '#0000ff', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1 }}
+            d="M 93.738093,81.931546 149.73775,99.12946"
+            id="path895"
+          />}
         </g>
       </svg>
     );

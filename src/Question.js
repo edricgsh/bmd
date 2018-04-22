@@ -58,6 +58,7 @@ const question = (i) => {
             <Grid.Column width={7} style={styles.right}>
               <form onSubmit={handleSubmit(this.onSubmit)} style={{ width: '80%' }}>
                 <div style={{ width: '100%' }}>
+                  <div>Please input: P (Positive), N (Negative), Z (Zero)</div>
                   {questions[i].inputs.map(({ title, names }, i) => this.renderInput(i, title, names))}
                   <Button>Test solution</Button>
                   {i < questions.length - 1 && this.state.correct && <Button onClick={() => onNext()}>Next</Button>}
