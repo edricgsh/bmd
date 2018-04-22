@@ -60,7 +60,7 @@ const question = (i) => {
                 <div style={{ width: '100%' }}>
                   {questions[i].inputs.map(({ title, names }, i) => this.renderInput(i, title, names))}
                   <Button>Test solution</Button>
-                  {i < questions.length - 1 && <Button onClick={() => onNext()}>Next</Button>}
+                  {i < questions.length - 1 && this.state.correct && <Button onClick={() => onNext()}>Next</Button>}
                   {error && !this.state.correct && <div style={{ margin: '8px 0', color: 'red' }}>{error}</div>}
                   {this.state.correct && <div style={{ margin: '8px 0', color: 'green' }}>You got all correct!</div>}
                 </div>
